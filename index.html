@@ -9,22 +9,90 @@
 </head>
 
 <body>
-    <header class="linjeinfo">
+    <header class="linjeinfo" id="linjeinfo">
 
-        <img height="100" width="200" src="https://placehold.co/120x120/2563eb/ffffff?text=47"
+        <img height="120" width="120" src="https://placehold.co/120x120/2563eb/ffffff?text=47"
             alt="Linje 47:s skylt vid hållplatsen" />
 
         <h1> Linje 47 </h1>
         <p class="stracka"> Centrum-Universitetet</p>
         <p class="frekvens">Var 15:e minut</p>
-        <p class="tagline">Din direkta linja genom stan </p>
+        <p class="tagline">Din direkta linje genom stan </p>
 
     </header>
-    <main>
 
+    <nav>
+        <a href="#linjeinfo">Linje</a>
+        <a href="#tabla">Avgångar</a>
+        <a href="#destinationer">Stopp</a>
+    </nav>
+
+    <main>
+        <section id="tabla">
+            <h2>Avgångar</h2>
+            <div class="tabla">
+                <article class="avgang">
+                    <p class="tid">08:15</p>
+                    <p class="dest">Centrum</p>
+                </article>
+
+                <article class="avgang">
+                    <p class="tid">08:30</p>
+                    <p class="dest">Universitetet</p>
+                </article>
+
+                <article class="avgang">
+                    <p class="tid">08:33</p>
+                    <p class="dest">Haga</p>
+                </article>
+
+                <article class="avgang">
+                    <p class="tid">08:37</p>
+                    <p class="dest">Herrhagen</p>
+                </article>
+
+                <article class="avgang">
+                    <p class="tid">08:40</p>
+                    <p class="dest">Atkanten</p>
+                </article>
+
+                <article class="avgang">
+                    <p class="tid">08:45</p>
+                    <p class="dest">Storatorget</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="destinationer">
+            <h2>Destinationer</h2>
+
+            <div class="kort-rad">
+
+                <article class="kort">
+                    <h3>Centrum</h3>
+                    <p>Hållplats mitt i stan</p>
+                </article>
+
+                <article class="kort">
+                    <h3>Universitetet</h3>
+                    <p>Hållplats vid universitetet</p>
+                </article>
+
+                <article class="kort">
+                    <h3>Storatorget</h3>
+                    <p>Hållplats vid Storatorget</p>
+                </article>
+
+            </div>
+        </section>
 
     </main>
-
+    <footer>
+        <p>Kontakt</p>
+        <a href="mailto:info@linje47.se">Write to us</a>
+        <p class="sps">Trafikbolaget AB</p>
+        <p class="sps">Karlstad Busscenter</p>
+    </footer>
 </body>
 
 </html>

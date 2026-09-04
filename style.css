@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.tabla {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  background-color: whitesmoke;
+}
+.avgang {
+  padding: 0.75rem 1rem;
+  background-color: rgb(235, 232, 228);
+  border: 1px solid black;
+}
+
+.kort-rad {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.kort {
+  flex: 1 1 200px;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+/*==== media query ==== */
+@media (max-width: 600px) {
+  .tabla {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*=== Egen styling: begränsar sidans bredd ===*/
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
