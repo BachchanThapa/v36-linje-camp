@@ -23,3 +23,7 @@ men jag behöver inte Grid där eftersom Flex räcker för mina kort.
 
 Jag kan förklara koden som jag har pushat.
 Jag använder AI som hjälp för att lära och förstå, men jag måste förstå min kod.
+
+## varför du valde två eller tre kolumner för Linje 47.
+
+Jag valde tre kolumner eftersom avgångarna blir lättare att se och tabellen blir inte så lång.

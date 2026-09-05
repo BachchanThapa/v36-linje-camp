@@ -3,13 +3,24 @@
   margin: 0;
   padding: 0;
 }
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+nav a {
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: 600;
+}
+
 h2 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
 .tabla {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   background-color: whitesmoke;
 }
@@ -31,16 +42,21 @@ h2 {
   border: 1px solid black;
 }
 
-/*==== media query ==== */
-@media (max-width: 600px) {
-  .tabla {
-    grid-template-columns: 1fr;
-  }
-}
-
 /*=== Egen styling: begränsar sidans bredd ===*/
 body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 1rem;
+}
+
+.footer-title {
+  margin-top: 1rem;
+  font-weight: 900;
+}
+
+/*==== media query ==== */
+@media (max-width: 600px) {
+  .tabla {
+    grid-template-columns: 1fr;
+  }
 }
